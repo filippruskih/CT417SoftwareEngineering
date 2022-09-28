@@ -3,20 +3,21 @@ import org.joda.time.DateTime;
 public class Lecturer
 {
     String lecturerName;
+    String lecturerSurname;
     int lecturerAge;
     DateTime lecturerDob;
     int lecturerID;
     String lecturerUsername;
     String modulesTeaching;
 
-    public Lecturer(String lecturerName, int lecturerAge, DateTime lecturerDob, int lecturerID, String lecturerUsername/*, String modulesTeaching*/)
+    public Lecturer(String lecturerName, String lecturerSurname, int lecturerAge, DateTime lecturerDob, int lecturerID/*, String lecturerUsername/*, String modulesTeaching*/)
     {
         this.lecturerName = lecturerName;
+        this.lecturerSurname = lecturerSurname;
         this.lecturerAge = lecturerAge;
         this.lecturerDob = lecturerDob;
         this.lecturerID = lecturerID;
         this.lecturerUsername = lecturerUsername;
-        //this.modulesTeaching = modulesTeaching;
     }
 
     public String getLecturerName()
@@ -27,6 +28,16 @@ public class Lecturer
     public void setLecturerName(String lecturerName)
     {
         this.lecturerName = lecturerName;
+    }
+
+    public String getLecturerSurname()
+    {
+        return lecturerSurname;
+    }
+
+    public void setLecturerSurname(String lecturerSurname)
+    {
+        this.lecturerSurname = lecturerSurname;
     }
 
     public int getLecturerAge()
@@ -61,7 +72,7 @@ public class Lecturer
 
     public String getLecturerUsername()
     {
-        lecturerUsername = lecturerName+lecturerAge; //concatenates the lecturerName and lecturerAge to create a lecturerUsername
+        lecturerUsername = lecturerName+lecturerSurname+lecturerAge; //concatenates the first and surname and lecturerAge to create a lecturerUsername
         return lecturerUsername;
     }
 

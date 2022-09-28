@@ -5,21 +5,22 @@ import java.util.ArrayList;
 public class Student
 {
     String name;
+    String surname;
     int age;
     DateTime dob;
     int id;
     String username;
     ArrayList<CourseProgramme> course;
     ArrayList<Module> modules;
+    ArrayList<Lecturer> lecturers;
 
-    public Student(String name, int age, DateTime dob, int id/*, String username, String course/*, String modules*/)
+    public Student(String name, String surname, int age, DateTime dob, int id/*, String username, String course/*, String modules*/)
     {
+        this.name = name;
+        this.surname = surname;
         this.age = age;
         this.dob = dob;
         this.id = id;
-        //this.username = username;
-        this.course = course;
-        //this.modules = modules;
     }
 
     public String getName()
@@ -30,6 +31,16 @@ public class Student
     public void setName(String name)
     {
         this.name = name;
+    }
+
+    public String getSurname()
+    {
+        return surname;
+    }
+
+    public void setSurname(String surname)
+    {
+        this.surname = surname;
     }
 
     public int getAge()
@@ -64,7 +75,7 @@ public class Student
 
     public String getUsername()
     {
-        username = name+age; //concatenates the name and age to create a username
+        username = name+surname+age; //concatenates the name and age to create a username
         return username;
     }
 
@@ -92,4 +103,14 @@ public class Student
     {
         this.modules = modules;
     }
+
+    /*public void setLecturer(ArrayList<Lecturer> lecturer)
+    {
+        lecturers = lecturer;
+    }
+
+    public ArrayList<Lecturer> getLecturer()
+    {
+        return lecturers;
+    }*/
 }
