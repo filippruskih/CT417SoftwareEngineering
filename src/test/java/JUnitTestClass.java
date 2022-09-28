@@ -1,9 +1,8 @@
-import org.joda.time.DateTime;
-import org.checkerframework.checker.units.qual.A;
+import assignment1package.Lecturer;
+import assignment1package.Student;
 import org.joda.time.DateTime;
 import org.junit.jupiter.api.Test;
-import java.util.ArrayList;
-import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

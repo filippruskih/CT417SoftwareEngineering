@@ -1,3 +1,5 @@
+package assignment1package;
+
 import org.joda.time.DateTime;
 
 import java.util.ArrayList;
@@ -104,12 +106,12 @@ public class Student
         this.modules = modules;
     }
 
-    /*public void setLecturer(ArrayList<Lecturer> lecturer)
+    /*public void setLecturer(ArrayList<assignment1package.Lecturer> lecturer)
     {
         lecturers = lecturer;
     }
 
-    public ArrayList<Lecturer> getLecturer()
+    public ArrayList<assignment1package.Lecturer> getLecturer()
     {
         return lecturers;
     }*/

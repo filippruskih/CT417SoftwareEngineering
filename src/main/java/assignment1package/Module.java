@@ -1,5 +1,10 @@
+package assignment1package;
+
+import assignment1package.CourseProgramme;
+import assignment1package.Lecturer;
+import assignment1package.Student;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class Module
 {
@@ -9,7 +14,7 @@ public class Module
     ArrayList<CourseProgramme> courses;
     Lecturer responsible;
 
-    public Module(String moduleName, String moduleID, ArrayList<Student> students/*, Lecturer responsible*/)
+    public Module(String moduleName, String moduleID, ArrayList<Student> students/*, assignment1package.Lecturer responsible*/)
     {
         this.moduleName = moduleName;
         this.moduleID = moduleID;

@@ -1,3 +1,5 @@
+package assignment1package;
+
 import org.joda.time.DateTime;
 
 public class Lecturer
