@@ -1,11 +1,7 @@
 import org.joda.time.DateTime;
 import java.util.ArrayList;
 import java.util.List;
-import org.joda.time.DateTime;
 import org.checkerframework.checker.units.qual.A;
-import org.joda.time.DateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 public class TestClass
 {

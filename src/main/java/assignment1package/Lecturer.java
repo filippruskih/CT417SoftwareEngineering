@@ -12,7 +12,7 @@ public class Lecturer
     String lecturerUsername;
     String modulesTeaching;
 
-    public Lecturer(String lecturerName, String lecturerSurname, int lecturerAge, DateTime lecturerDob, int lecturerID/*, String lecturerUsername/*, String modulesTeaching*/)
+    public Lecturer(String lecturerName, String lecturerSurname, int lecturerAge, DateTime lecturerDob, int lecturerID/*, String lecturerUsername*/)
     {
         this.lecturerName = lecturerName;
         this.lecturerSurname = lecturerSurname;
