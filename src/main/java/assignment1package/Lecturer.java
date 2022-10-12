@@ -2,6 +2,8 @@ package assignment1package;
 
 import org.joda.time.DateTime;
 
+import java.util.ArrayList;
+
 public class Lecturer
 {
     String lecturerName;
@@ -10,7 +12,7 @@ public class Lecturer
     DateTime lecturerDob;
     int lecturerID;
     String lecturerUsername;
-    String modulesTeaching;
+    ArrayList<Module> modulesTeaching;
 
     public Lecturer(String lecturerName, String lecturerSurname, int lecturerAge, DateTime lecturerDob, int lecturerID/*, String lecturerUsername*/)
     {
@@ -83,12 +85,12 @@ public class Lecturer
         this.lecturerUsername = lecturerUsername;
     }
 
-    public String getModulesTeaching()
+    public ArrayList<Module> getModulesTeaching()
     {
         return modulesTeaching;
     }
 
-    public void setModulesTeaching(String modulesTeaching)
+    public void setModulesTeaching(ArrayList<Module> modules)
     {
         this.modulesTeaching = modulesTeaching;
     }
