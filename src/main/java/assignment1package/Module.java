@@ -12,7 +12,7 @@ public class Module
     String moduleID;
     ArrayList<Student> students;
     ArrayList<CourseProgramme> courses;
-    Lecturer responsible;
+    ArrayList<Lecturer> responsible;
 
     public Module(String moduleName, String moduleID, ArrayList<Student> students/*, assignment1package.Lecturer responsible*/)
     {
@@ -52,12 +52,12 @@ public class Module
         students = student;
     }
 
-    public Lecturer getResponsible()
+    public ArrayList<Lecturer> getResponsible()
     {
         return responsible;
     }
 
-    public void setResponsible(Lecturer responsible)
+    public void setResponsible(ArrayList<Lecturer> responsible)
     {
         this.responsible = responsible;
     }
