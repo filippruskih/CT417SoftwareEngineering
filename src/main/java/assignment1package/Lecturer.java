@@ -89,8 +89,8 @@ public class Lecturer
         return modulesTeaching;
     }
 
-    public void setModulesTeaching(ArrayList<Module> modulesTeaching)
+    public void setModulesTeaching(ArrayList<Module> modules)
     {
-        this.modulesTeaching = modulesTeaching;
+        this.modulesTeaching = modules;
     }
 }
