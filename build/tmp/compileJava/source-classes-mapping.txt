@@ -1,10 +1,10 @@
+assignment1package/CourseProgramme.java
+ assignment1package.CourseProgramme
+assignment1package/Student.java
+ assignment1package.Student
 assignment1package/Module.java
  assignment1package.Module
 assignment1package/Lecturer.java
  assignment1package.Lecturer
-assignment1package/Student.java
- assignment1package.Student
 TestClass.java
  TestClass
-assignment1package/CourseProgramme.java
- assignment1package.CourseProgramme
