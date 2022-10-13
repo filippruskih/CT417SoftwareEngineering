@@ -14,12 +14,11 @@ public class Module
     ArrayList<CourseProgramme> courses;
     ArrayList<Lecturer> responsible;
 
-    public Module(String moduleName, String moduleID, ArrayList<Student> students/*, assignment1package.Lecturer responsible*/)
+    public Module(String moduleName, String moduleID, ArrayList<Student> students)
     {
         this.moduleName = moduleName;
         this.moduleID = moduleID;
         this.students = students;
-        //this.responsible = responsible;
     }
 
     public String getModuleName()

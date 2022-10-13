@@ -14,14 +14,13 @@ public class Lecturer
     String lecturerUsername;
     ArrayList<Module> modulesTeaching;
 
-    public Lecturer(String lecturerName, String lecturerSurname, int lecturerAge, DateTime lecturerDob, int lecturerID/*, String lecturerUsername*/)
+    public Lecturer(String lecturerName, String lecturerSurname, int lecturerAge, DateTime lecturerDob, int lecturerID)
     {
         this.lecturerName = lecturerName;
         this.lecturerSurname = lecturerSurname;
         this.lecturerAge = lecturerAge;
         this.lecturerDob = lecturerDob;
         this.lecturerID = lecturerID;
-        this.lecturerUsername = lecturerUsername;
     }
 
     public String getLecturerName()

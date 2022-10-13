@@ -16,7 +16,7 @@ public class Student
     ArrayList<Module> modules;
     ArrayList<Lecturer> lecturers;
 
-    public Student(String name, String surname, int age, DateTime dob, int id/*, String username, String course/*, String modules*/)
+    public Student(String name, String surname, int age, DateTime dob, int id)
     {
         this.name = name;
         this.surname = surname;
@@ -105,14 +105,4 @@ public class Student
     {
         this.modules = modules;
     }
-
-    /*public void setLecturer(ArrayList<assignment1package.Lecturer> lecturer)
-    {
-        lecturers = lecturer;
-    }
-
-    public ArrayList<assignment1package.Lecturer> getLecturer()
-    {
-        return lecturers;
-    }*/
 }
