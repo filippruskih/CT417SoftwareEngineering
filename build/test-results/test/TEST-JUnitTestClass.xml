@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnitTestClass" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-15T12:12:25" hostname="Filipps-MacBook-Pro.local" time="0.027">
+<testsuite name="JUnitTestClass" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-15T13:26:28" hostname="Filipps-MacBook-Pro.local" time="0.063">
   <properties/>
-  <testcase name="testLecturerData()" classname="JUnitTestClass" time="0.025"/>
+  <testcase name="testLecturerData()" classname="JUnitTestClass" time="0.061"/>
   <testcase name="testStudentData()" classname="JUnitTestClass" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
