@@ -3,18 +3,11 @@ plugins {
     id 'war'
 }
 
-group 'org.example'
+group 'org.assignment1package'
 version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    maven { url 'https://jitpack.io' }
-}
-
-war {
-    enabled=true
-    archiveBaseName = 'assignment1WarFile'
-    archiveVersion =  '0.1.0'
 }
 
 
@@ -26,4 +19,10 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+war {
+    enabled=true
+    archiveBaseName = 'assignment1WarFile'
+    archiveVersion =  '0.1.0'
 }
