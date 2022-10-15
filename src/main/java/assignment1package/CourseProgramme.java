@@ -1,8 +1,5 @@
 package assignment1package;
-
-import assignment1package.Student;
 import org.joda.time.DateTime;
-
 import java.util.ArrayList;
 
 public class CourseProgramme

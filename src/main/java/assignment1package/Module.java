@@ -1,9 +1,4 @@
 package assignment1package;
-
-import assignment1package.CourseProgramme;
-import assignment1package.Lecturer;
-import assignment1package.Student;
-
 import java.util.ArrayList;
 
 public class Module
